@@ -1,0 +1,18 @@
+.admin-orders {
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+}

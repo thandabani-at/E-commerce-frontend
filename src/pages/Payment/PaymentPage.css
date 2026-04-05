@@ -1,0 +1,27 @@
+/* src/pages/Payment/PaymentPage.css */
+.payment-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.payment-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.payment-container .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.processing {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}

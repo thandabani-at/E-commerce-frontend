@@ -1,0 +1,51 @@
+/* AddAddress.css */
+.add-address-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-address-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.add-address-form input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.add-address-form button {
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-address-form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-address-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.add-address-form button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.add-address-form button[type="button"]:hover {
+  background-color: #c82333;
+}
